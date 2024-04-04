@@ -4,7 +4,12 @@ import java.io.File;
  
 public class FUtil { 
   
-	 public static boolean existe(String filename) { 	 
+	 public static boolean existe(String filename) { 
+            if (filename == null || filename.trim().isEmpty()) {
+                throw new IllegalArgumentException
+                ("El nombre introducido esta en blanco "
+                + "o tiene espacios en blanco.");
+             }
                             File file = new File(filename); 
  
                         if (file.exists()) {
