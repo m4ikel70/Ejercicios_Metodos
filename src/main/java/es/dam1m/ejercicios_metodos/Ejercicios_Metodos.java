@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package es.dam1m.ejercicios_metodos;
 
-/**
- *
- * @author b08-21m
- */
 public class Ejercicios_Metodos {
 
     public static void main(String[] args) {
