@@ -2,10 +2,15 @@ package es.dam1m.ejercicios_metodos;
  
 import java.io.File; 
  
+/**
+ * @author Miguel Ángel Sánchez García
+ */
+
 public class FUtil { 
           
     /**
      * Comprueba si un archivo existe mediante un parametro.
+     * Prueba de push
      * @param filename el nombre del archivo que se quiere comprobar
      * @return true si el archivo existe, false si no existe
      * @throws IllegalArgumentException si la cadena está vacía o contiene espacios en blanco
