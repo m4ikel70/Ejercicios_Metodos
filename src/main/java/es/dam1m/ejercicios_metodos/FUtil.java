@@ -2,9 +2,6 @@ package es.dam1m.ejercicios_metodos;
  
 import java.io.File; 
  
-/**
- * @author Miguel Ángel Sánchez García
- */
 
 public class FUtil { 
           
